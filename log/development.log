@@ -1,0 +1,551 @@
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 14:57:26) [GET]
+
+ActionController::RoutingError (No route matches "/lunch" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 14:57:48) [GET]
+
+NameError (uninitialized constant AppController):
+  app/controllers/lunch_controller.rb:1
+
+Rendered rescues/_trace (93.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 14:57:49) [GET]
+
+NameError (uninitialized constant AppController):
+  app/controllers/lunch_controller.rb:1
+
+Rendered rescues/_trace (42.2ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:57:58) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:57:59) [GET]
+
+ActionController::UnknownAction (No action responded to index. Actions: ):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:58:07) [GET]
+
+ActionView::MissingTemplate (Missing template lunch/index.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:58:24) [GET]
+Rendering lunch/index
+Completed in 83ms (View: 81, DB: 0) | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:58:33) [GET]
+Rendering lunch/index
+Completed in 8ms (View: 1, DB: 0) | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 14:58:37) [GET]
+Rendering lunch/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 15:00:08) [GET]
+Rendering lunch/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 15:00:09) [GET]
+Rendering lunch/index
+Completed in 2ms (View: 1, DB: 0) | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:15) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:17) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:40) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:41) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:49) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:49) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:50) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#show (for 127.0.0.1 at 2009-10-29 15:00:54) [GET]
+  Parameters: {"id"=>"winner"}
+
+ActionController::UnknownAction (No action responded to show. Actions: index and winner):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:01:27) [GET]
+
+NoMethodError (undefined method `get_random' for Lunch:Class):
+  app/controllers/lunch_controller.rb:8:in `winner'
+
+Rendered rescues/_trace (33.3ms)
+Rendered rescues/_request_and_response (1.2ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:01:28) [GET]
+
+NoMethodError (undefined method `get_random' for Lunch:Class):
+  app/controllers/lunch_controller.rb:8:in `winner'
+
+Rendered rescues/_trace (31.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:01:37) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/models/lunch.rb:4:in `get_random'
+  app/controllers/lunch_controller.rb:8:in `winner'
+
+Rendered rescues/_trace (101.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:01:38) [GET]
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.length):
+  app/models/lunch.rb:4:in `get_random'
+  app/controllers/lunch_controller.rb:8:in `winner'
+
+Rendered rescues/_trace (33.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:01:53) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+
+ActionView::MissingTemplate (Missing template lunch/winner.erb in view path app/views):
+  
+
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:09) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 10ms (View: 6 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:19) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:20) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:21) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 7ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:21) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 6ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:22) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:22) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:22) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:22) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 6ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:23) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:23) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:23) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 6ms (View: 2 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:23) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:23) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 6ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:25) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:02:25) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 15:04:56) [GET]
+
+ActionController::RoutingError (No route matches "/pages/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 15:04:58) [GET]
+
+ActionController::RoutingError (No route matches "/pages/about" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2009-10-29 15:05:04) [GET]
+  Parameters: {"id"=>"about"}
+Rendering pages/about
+Completed in 8ms (View: 1 | 200 OK [http://localhost/pages/about]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2009-10-29 15:05:05) [GET]
+  Parameters: {"id"=>"about"}
+Rendering pages/about
+Completed in 2ms (View: 0 | 200 OK [http://localhost/pages/about]
+
+
+Processing HighVoltage::PagesController#show (for 127.0.0.1 at 2009-10-29 15:05:06) [GET]
+  Parameters: {"id"=>"about"}
+Rendering pages/about
+Completed in 2ms (View: 0 | 200 OK [http://localhost/pages/about]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:05:36) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 11ms (View: 7 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:05:37) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:05:38) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 4ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:05:38) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 5ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:06:19) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 279ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:06:21) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 97ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:06:58) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 335ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:08:01) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 72ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:08:24) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 68ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner (for 127.0.0.1 at 2009-10-29 15:12:45) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 127ms (View: 1 | 200 OK [http://localhost/lunch/winner/?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:14:33) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Completed in 120ms (View: 1 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:14:36) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Completed in 274ms (View: 1 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:15:05) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+
+NoMethodError (undefined method `to_xml' for "test1":String):
+  app/controllers/lunch_controller.rb:13:in `winner'
+  app/controllers/lunch_controller.rb:11:in `winner'
+
+Rendered rescues/_trace (97.3ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:16:55) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+
+ActionView::TemplateError (undefined local variable or method `x' for #<ActionView::Base:0x1022a6748>) on line #1 of app/views/lunch/winner.xml.builder:
+1: x.instruct!
+2: x.winner @winner
+
+    app/views/lunch/winner.xml.builder:1:in `_run_builder_app47views47lunch47winner46xml46builder'
+    app/controllers/lunch_controller.rb:11:in `winner'
+
+Rendered rescues/_trace (45.6ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:17:29) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 120ms (View: 4 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:18:03) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+
+ArgumentError (wrong number of arguments (0 for 1)):
+  app/controllers/lunch_controller.rb:9:in `get_random'
+  app/controllers/lunch_controller.rb:9:in `winner'
+
+Rendered rescues/_trace (33.2ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:18:12) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 556ms (View: 5 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:18:18) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 551ms (View: 1 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:18:43) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 115ms (View: 5 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:19:12) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 173ms (View: 6 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to json (for 127.0.0.1 at 2009-10-29 15:22:28) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 891ms (View: 7 | 200 OK [http://localhost/lunch/winner.json?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:23:59) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 239ms (View: 1 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 15:25:59) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+
+ActionController::RoutingError (No route matches "/lunch/winner.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-29 15:26:02) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+
+ActionController::RoutingError (No route matches "/lunch/winner.xml" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#winner to xml (for 127.0.0.1 at 2009-10-29 15:26:14) [GET]
+  Parameters: {"contestants"=>["test", "test1"]}
+Rendering lunch/winner
+Completed in 136ms (View: 1 | 200 OK [http://localhost/lunch/winner.xml?contestants[]=test&contestants[]=test1]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-10-29 15:26:20) [GET]
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
