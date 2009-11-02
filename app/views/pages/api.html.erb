@@ -1,1 +1,29 @@
 <h2>Who's getting lunch API</h2>
+<p>We offer a full rest api!</p>
+
+
+<h3>Response formats</h3>
+<p>Currently we support two response formats, XML and JSON.</p>
+
+<h4>XML Example</h4>
+<p>Call with http://www.whoisgettinglunch.com/lunch/winner.xml?contestants[]=Ron&contestants[]=Robert&contestants[]=Jeff</p>
+<p>Result:</p>
+<pre><code>
+  <%= h %{<?xml version="1.0" encoding="UTF-8"?>
+  <gettinglunch>
+    <winner>Jeff</winner>
+    <contestants>
+      <contestant>Ron</contestant>
+      <contestant>Robert</contestant>
+      <contestant>Jeff</contestant>
+    </contestants>
+  </gettinglunch>
+  } %>
+</code></pre>
+
+<h4>JSON Example</h4>
+<p>Call with http://www.whoisgettinglunch.com/lunch/winner.json?contestants[]=Ron&contestants[]=Robert&contestants[]=Jeff</p>
+<p>Result:</p>
+<pre><code>
+  {"winner":"Ron","contestants":["Ron","Robert", "Jeff"]}
+</code></pre>

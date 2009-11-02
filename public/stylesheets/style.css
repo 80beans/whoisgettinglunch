@@ -1,0 +1,12 @@
+#add_contestant_form {
+  margin-bottom: 20px;
+}
+
+#contestants_list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#contestants_list li {
+  padding: 10px;
+}

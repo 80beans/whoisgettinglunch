@@ -1,0 +1,42 @@
+<% form_tag('#', :id => 'add_contestant_form') do %>
+<%= text_field_tag 'contestant'%>
+<%= submit_tag('Add Contestant', :id => 'addContestant')%>
+
+<% end %>
+
+<% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
+  <ul id="contestants_list">
+  </ul>
+  <%= submit_tag('Who is getting lunch?')%>
+<% end %>
+<script type="text/javascript">
+  $('add_contestant_form').observe('submit', function(ev){
+    Event.stop(ev);
+    addContestant();
+  });
+  
+  function addContestant() {
+    list = $('contestants_list');
+    contestant = $('contestant');
+    name = contestant.value;
+    Element.insert(list, '<li id="wrapper_for_'+name+'"><input type="text" name="contestants[]" id="'+name+'" value="'+name+'"></li>');
+    contestant.value = '';
+    contestant.focus();
+  }
+  
+  function setWinner(winner){
+    resetWinner();
+    $$("#contestants_list li").each(function(e){
+      if(e.id != "wrapper_for_"+winner){
+        e.fade({from: 1, to:0.2});
+      }
+    });
+    $("wrapper_for_"+winner).highlight({startcolor: '#ffffff', endcolor: '#bdbdbd', restorecolor: '#bdbdbd'});
+  }
+  function resetWinner(){
+    $$("#contestants_list li").each(function(e){
+      e.fade({to:1, duration:0.1});
+      e.setStyle({background: '#ffffff'});
+    });
+  }
+</script>
