@@ -1,7 +1,7 @@
 class LunchController < ApplicationController
   
   def index
-  
+    
   end
   
   def winner

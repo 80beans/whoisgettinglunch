@@ -13,6 +13,7 @@ ActionController::Routing::Routes.draw do |map|
   
     map.resources :lunch, :collection => { :winner => [:get, :post] }
     map.root :controller => :lunch
+    map.connect '/:item', :controller => :lunch, :action => :index
     
   # Sample resource route with options:
   #   map.resources :products, :member => { :short => :get, :toggle => :post }, :collection => { :sold => :get }

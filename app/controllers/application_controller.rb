@@ -7,4 +7,10 @@ class ApplicationController < ActionController::Base
 
   # Scrub sensitive parameters from your log
   # filter_parameter_logging :password
+  
+  before_filter :set_item
+  
+  def set_item
+    @item = params[:item] || 'lunch'
+  end
 end
