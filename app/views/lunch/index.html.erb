@@ -7,7 +7,7 @@
 <% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
   <ul id="contestants_list">
   </ul>
-  <%= submit_tag("Who is getting #{@item}")%>
+  <%= submit_tag("Who is getting #{h(@item)}")%>
 <% end %>
 <script type="text/javascript">
   $('add_contestant_form').observe('submit', function(ev){

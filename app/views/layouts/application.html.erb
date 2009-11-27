@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Who's getting lunch?</title>
+		<title>Who's getting <%=h @item %></title>
 		<%= stylesheet_link_tag('style') %>
 		<%= javascript_include_tag(:all, :cache => false) %>
 		<meta name="description" content="This will help you decide who is getting lunch!"/>
@@ -13,7 +13,7 @@
 		<div id="wrap">
 			
 			<div id="header">
-				<h1>Who is getting <%= @item %>?</h1>
+				<h1>Who is getting <%=h @item %>?</h1>
 			</div>
 			
 			<div id="main">

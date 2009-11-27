@@ -5513,3 +5513,152 @@ Processing LunchController#winner to js (for 127.0.0.1 at 2009-11-02 19:01:22) [
   Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["asdf", "fda"], "authenticity_token"=>"0fWopyXohNtarUoFURlkXoAxVZWgyIxArMHNYLSSh/g="}
 Rendering lunch/winner
 Completed in 110ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:35:25) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 38ms (View: 37 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:35:26) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 8ms (View: 7 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:35:27) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:35:28) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 11 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2009-11-27 17:35:32) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"bnxLRhyTaGLx3zw3tvbmXGnAvCnBC8fA2r1QheabB7U="}
+Rendering lunch/winner
+Completed in 213ms (View: 5 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2009-11-27 17:35:36) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"bnxLRhyTaGLx3zw3tvbmXGnAvCnBC8fA2r1QheabB7U="}
+Rendering lunch/winner
+Completed in 85ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2009-11-27 17:35:39) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"bnxLRhyTaGLx3zw3tvbmXGnAvCnBC8fA2r1QheabB7U="}
+Rendering lunch/winner
+Completed in 90ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:36:14) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:36:15) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 12ms (View: 10 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:36:38) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 11ms (View: 9 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:01) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 73ms (View: 71 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:20) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+
+ActionView::TemplateError (undefined local variable or method `item' for #<ActionView::Base:0x10234eb00>) on line #10 of app/views/lunch/index.html.erb:
+7: <% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
+8:   <ul id="contestants_list">
+9:   </ul>
+10:   <%= submit_tag("Who is getting #{item}")%>
+11: <% end %>
+12: <script type="text/javascript">
+13:   $('add_contestant_form').observe('submit', function(ev){
+
+    app/views/lunch/index.html.erb:10
+    app/views/lunch/index.html.erb:7
+
+Rendered rescues/_trace (45.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:21) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+
+ActionView::TemplateError (undefined local variable or method `item' for #<ActionView::Base:0x1010031e0>) on line #10 of app/views/lunch/index.html.erb:
+7: <% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
+8:   <ul id="contestants_list">
+9:   </ul>
+10:   <%= submit_tag("Who is getting #{item}")%>
+11: <% end %>
+12: <script type="text/javascript">
+13:   $('add_contestant_form').observe('submit', function(ev){
+
+    app/views/lunch/index.html.erb:10
+    app/views/lunch/index.html.erb:7
+
+Rendered rescues/_trace (41.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:22) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+
+ActionView::TemplateError (undefined local variable or method `item' for #<ActionView::Base:0x10431e278>) on line #10 of app/views/lunch/index.html.erb:
+7: <% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
+8:   <ul id="contestants_list">
+9:   </ul>
+10:   <%= submit_tag("Who is getting #{item}")%>
+11: <% end %>
+12: <script type="text/javascript">
+13:   $('add_contestant_form').observe('submit', function(ev){
+
+    app/views/lunch/index.html.erb:10
+    app/views/lunch/index.html.erb:7
+
+Rendered rescues/_trace (44.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:25) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 11 | 200 OK [http://localhost/lunch]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:37:29) [GET]
+  Parameters: {"item"=>"beer"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/beer]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:38:16) [GET]
+  Parameters: {"item"=>"beer"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 23ms (View: 21 | 200 OK [http://localhost/beer]
