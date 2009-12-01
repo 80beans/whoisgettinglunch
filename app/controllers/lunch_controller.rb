@@ -9,7 +9,7 @@ class LunchController < ApplicationController
       @contestants = params[:contestants]
       @winner = Lunch.get_random(@contestants)
     
-      Justlogging.log("Winner: #{@winner}. Contestants #{@contestants * ', '}")
+      Justlogging.log("Winner: #{@winner}. Contestants #{@contestants * ', '}. Question: Who is getting #{@item}")
     
       respond_to do |format|
         format.html 
