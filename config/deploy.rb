@@ -9,13 +9,13 @@ set :copy_strategy, :export
 set :use_sudo, false
 
 ssh_options[:forward_agent] = true
-ssh_options[:username] = application
+ssh_options[:username] = 'robertbeekman'
 
-role :app, 'web02.edore.nl'
-role :web, 'web02.edore.nl'
-role :db,  'web02.edore.nl', :primary => true
+role :app, 'nzbtv.com'
+role :web, 'nzbtv.com'
+role :db,  'nzbtv.com', :primary => true
 
-set :deploy_to, "/home/#{application}/app"
+set :deploy_to, "/Sites/#{application}/app"
 
 task :tail do
   run "tail -f #{deploy_to}/shared/log/production.log"
