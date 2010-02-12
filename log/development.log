@@ -7084,3 +7084,209 @@ Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:39:47) [GET]
 Rendering template within layouts/application
 Rendering lunch/index
 Completed in 11ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:41:16) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert Beekman", "Robert Beekman"]}
+Rendering lunch/winner
+Completed in 2535ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:41:43) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert Beekman", "Robert Beekman"]}
+Rendering lunch/winner
+Completed in 111ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:41:44) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert Beekman", "Robert Beekman"]}
+Rendering lunch/winner
+Completed in 101ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:41:48) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert Beekman", "Robert Beekman"]}
+Rendering lunch/winner
+Completed in 109ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:43:42) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 33ms (View: 32 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:43:46) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 104ms (View: 2 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:44:23) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 20ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:44:27) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 107ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:54:30) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"EgPp3F87/Ph4lSZRuSseHNd/uYciJAZtsTd7TfqFZBY=", "names"=>["Robert", "Onno"], "_"=>""}
+Rendering lunch/winner
+Completed in 172ms (View: 1 | 200 OK [http://127.0.0.1/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:58:34) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:58:43) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-13 00:01:00) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 22ms (View: 20 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:19) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:19) [GET]
+
+ActionController::RoutingError (No route matches "/.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/i.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/im.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/ima.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/imag.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/images.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:20) [GET]
+
+ActionController::RoutingError (No route matches "/images/w.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wa.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wal.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wall.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wallp.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wallpap.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wallpape.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-13 00:01:21) [GET]
+
+ActionController::RoutingError (No route matches "/images/wallpaper.jpg" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-13 00:01:53) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 18ms (View: 16 | 200 OK [http://localhost/]
