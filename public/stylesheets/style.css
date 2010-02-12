@@ -109,6 +109,7 @@ form input[type="submit"]:hover {
 
 form input[type="submit"]:active {
 	background-color: rgba(16,150,0,0.5);
+	outline: none;
 }
 
 form input[type="submit"][disabled] {
