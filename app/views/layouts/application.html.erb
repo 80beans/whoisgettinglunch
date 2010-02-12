@@ -1,4 +1,4 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -12,17 +12,17 @@
 		<body class="<%= controller_name %> <%= action_name %> <%= controller_name %>_<%= action_name %>">
 		<div id="wrap">
 			
-			<div id="header">
+			<header>
 				<h1>Who is getting <%=h @item %>?</h1>
-			</div>
+			</header>
 			
 			<div id="main">
 			
 				<%= yield %>
 				
 			</div>
-			<div id="footer">
-				<p>&copy; 2009 80beans - <%= link_to 'API', page_path('api')%> - <%= link_to 'Campfire bot', 'http://gist.github.com/232853'%></p>
-		</div>
+			<footer>
+				<p>&copy; 2009 - <%= link_to '80beans', 'http://80beans.com'%> - <%= link_to 'API', page_path('api')%> - <%= link_to 'Campfire bot', 'http://gist.github.com/232853'%></p>
+		</footer>
 	</body>
 </html>

@@ -1,13 +1,13 @@
 <% form_tag('#', :id => 'add_contestant_form') do %>
 <%= text_field_tag 'contestant'%>
-<%= submit_tag('Add Contestant', :id => 'addContestant')%>
+<%= submit_tag('Add', :id => 'addContestant')%>
 
 <% end %>
 
-<% form_remote_tag(:url => winner_lunch_path(:format => :js), :id => 'contestants_form') do %>
+<% form_remote_tag(:url => winner_lunch_path(:format => :js), :html => { :id => 'contestants_form' }) do %>
   <ul id="contestants_list">
   </ul>
-  <%= submit_tag("Who is getting #{h(@item)}")%>
+  <%= submit_tag("Who is getting #{h(@item)}?", :disabled => true, :id => 'whoisgetting')%>
 <% end %>
 <script type="text/javascript">
   $('add_contestant_form').observe('submit', function(ev){
@@ -17,26 +17,36 @@
   
   function addContestant() {
     list = $('contestants_list');
+    length = $$("#contestants_list li").length
+    
+    if (length > 0) {
+      $("whoisgetting").enable();
+    } else {
+      $("whoisgetting").disable();
+    }
+    
     contestant = $('contestant');
     name = contestant.value;
-    Element.insert(list, '<li id="wrapper_for_'+name+'"><input type="text" name="contestants[]" id="'+name+'" value="'+name+'"></li>');
+    Element.insert(list, '<li id="wrapper_for_'+length+'"><input type="hidden" name="contestants[]" id="'+length+'" value="'+length+'"><input type="text" name="names[]" id="unused_'+length+'" value="'+name+'"></li>');
     contestant.value = '';
     contestant.focus();
   }
   
   function setWinner(winner){
     resetWinner();
-    $$("#contestants_list li").each(function(e){
-      if(e.id != "wrapper_for_"+winner){
-        e.fade({from: 1, to:0.2});
-      }
-    });
-    $("wrapper_for_"+winner).highlight({startcolor: '#ffffff', endcolor: '#bdbdbd', restorecolor: '#bdbdbd'});
+  //  $$("#contestants_list li").each(function(e){
+  //    if(e.id != "wrapper_for_"+winner){
+  //      e.fade({from: 0.2, to:0.2, duration:0.2});
+  //    }
+  //  });
+   // $("wrapper_for_"+winner).highlight({startcolor: '#ffffff', endcolor: 'rgba(255,255,255,0.8)', restorecolor: 'rgba(255,255,255,0.8)'});
+    $("wrapper_for_"+winner).setStyle({background: 'rgba(255,255,255,0.8)'});
+    $("wrapper_for_"+winner).highlight();  
   }
   function resetWinner(){
     $$("#contestants_list li").each(function(e){
-      e.fade({to:1, duration:0.1});
-      e.setStyle({background: '#ffffff'});
+      //e.fade({to:0.2, duration:0.1});
+      e.setStyle({background: 'rgba(255,255,255,0.2)'});
     });
   }
 </script>

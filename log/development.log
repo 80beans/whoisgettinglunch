@@ -5662,3 +5662,1425 @@ Processing LunchController#index (for 127.0.0.1 at 2009-11-27 17:38:16) [GET]
 Rendering template within layouts/application
 Rendering lunch/index
 Completed in 23ms (View: 21 | 200 OK [http://localhost/beer]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 20:55:17) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 38ms (View: 37 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 21:40:41) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 7 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 21:48:43) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 14ms (View: 13 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 21:49:40) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 11ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 21:55:47) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 12 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 21:56:03) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:36) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:53) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:54) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:55) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:56) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:57) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:58) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:06:59) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:07:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:07:00) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2010-02-12 22:07:01) [GET]
+
+ActionController::RoutingError (No route matches "/images/bg_input.gif" with {:method=>:get}):
+  
+
+Rendering rescues/layout (not_found)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:10:28) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 11 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:25:21) [POST]
+  Parameters: {"commit"=>"Who is getting lunch", "contestants"=>["Robert Beekman"], "authenticity_token"=>"EgPp3F87/Ph4lSZRuSseHNd/uYciJAZtsTd7TfqFZBY=", "_"=>""}
+Rendering lunch/winner
+Completed in 2257ms (View: 5 | 200 OK [http://127.0.0.1/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:27:28) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:27:31) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 25ms (View: 23 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:30:25) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+ERROR: compiling _run_erb_app47views47lunch47index46html46erb RAISED compile error
+/Users/robertbeekman/Sites/whoisgettinglunch/app/views/lunch/index.html.erb:7: syntax error, unexpected '}', expecting ')'
+...{ :id => 'contestants_form' }}) do ; @output_buffer.concat "...
+                              ^
+/Users/robertbeekman/Sites/whoisgettinglunch/app/views/lunch/index.html.erb:43: syntax error, unexpected kENSURE, expecting $end
+Function body:           def _run_erb_app47views47lunch47index46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ;  form_tag('#', :id => 'add_contestant_form') do ; @output_buffer.concat "\n"
+; @output_buffer.concat(( text_field_tag 'contestant').to_s); @output_buffer.concat "\n"
+; @output_buffer.concat(( submit_tag('Add', :id => 'addContestant')).to_s); @output_buffer.concat "\n\n"
+
+;  end ; @output_buffer.concat "\n\n"
+
+;  form_remote_tag(:url => winner_lunch_path(:format => :js), :html => { :id => 'contestants_form' }}) do ; @output_buffer.concat "\n  <ul id=\"contestants_list\">\n  </ul>\n  "
+
+
+; @output_buffer.concat(( submit_tag("Who is getting #{h(@item)}")).to_s); @output_buffer.concat "\n"
+;  end ; @output_buffer.concat "\n<script type=\"text/javascript\">\n  $('add_contestant_form').observe('submit', function(ev){\n    Event.stop(ev);\n    addContestant();\n  });\n  \n  function addContestant() {\n    list = $('contestants_list');\n    contestant = $('contestant');\n    name = contestant.value;\n    Element.insert(list, '<li id=\"wrapper_for_'+name+'\"><input type=\"text\" name=\"contestants[]\" id=\"'+name+'\" value=\"'+name+'\"></li>');\n    contestant.value = '';\n    contestant.focus();\n  }\n  \n  function setWinner(winner){\n    resetWinner();\n    $$(\"#contestants_list li\").each(function(e){\n      if(e.id != \"wrapper_for_\"+winner){\n        e.fade({from: 1, to:0.2});\n      }\n    });\n    $(\"wrapper_for_\"+winner).highlight({startcolor: '#ffffff', endcolor: '#bdbdbd', restorecolor: '#bdbdbd'});\n  }\n  function resetWinner(){\n    $$(\"#contestants_list li\").each(function(e){\n      e.fade({to:1, duration:0.1});\n      e.setStyle({background: '#ffffff'});\n    });\n  }\n</script>"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/robertbeekman/Sites/whoisgettinglunch/app/views/lunch/index.html.erb:43:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:343:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:257:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:64:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.1/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/robertbeekman/Sites/whoisgettinglunch/app/views/lunch/index.html.erb:7: syntax error, unexpected '}', expecting ')'
+...{ :id => 'contestants_form' }}) do ; @output_buffer.concat "...
+                              ^
+/Users/robertbeekman/Sites/whoisgettinglunch/app/views/lunch/index.html.erb:43: syntax error, unexpected kENSURE, expecting $end) on line #7 of app/views/lunch/index.html.erb:
+4: 
+5: <% end %>
+6: 
+7: <% form_remote_tag(:url => winner_lunch_path(:format => :js), :html => { :id => 'contestants_form' }}) do %>
+8:   <ul id="contestants_list">
+9:   </ul>
+10:   <%= submit_tag("Who is getting #{h(@item)}")%>
+
+    app/views/lunch/index.html.erb:43:in `compile!'
+
+Rendered rescues/_trace (125.9ms)
+Rendered rescues/_request_and_response (1.1ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:30:31) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:30:55) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 9 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:35:42) [POST]
+  Parameters: {"commit"=>"Who is getting lunch", "contestants"=>["Robert Beekman"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 133ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:36:06) [POST]
+  Parameters: {"commit"=>"Who is getting lunch", "contestants"=>["Robert Beekman", "Roy Tomeij", "Jeff Kreeftmeijer", "Ron Cadier"], "authenticity_token"=>"EgPp3F87/Ph4lSZRuSseHNd/uYciJAZtsTd7TfqFZBY=", "_"=>""}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://127.0.0.1/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:40:05) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:41:18) [POST]
+  Parameters: {"commit"=>"Who is getting lunch", "contestants"=>["Robert Beekman", "Roy Tomeij", "Jeff Kreeftmeijer", "Ron Cadier"], "authenticity_token"=>"EgPp3F87/Ph4lSZRuSseHNd/uYciJAZtsTd7TfqFZBY=", "_"=>""}
+Rendering lunch/winner
+Completed in 48ms (View: 1 | 200 OK [http://127.0.0.1/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:41:26) [POST]
+  Parameters: {"commit"=>"Who is getting lunch", "contestants"=>["Robert Beekman", "Roy Tomeij", "Jeff Kreeftmeijer", "Ron Cadier"], "authenticity_token"=>"EgPp3F87/Ph4lSZRuSseHNd/uYciJAZtsTd7TfqFZBY=", "_"=>""}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://127.0.0.1/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:41:39) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:41:43) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 52ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:41:50) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 42ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:42:20) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:42:32) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 8 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:43:30) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:43:37) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["Robert Beekman", "Ron Cadier"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 69ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:44:12) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:44:16) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 68ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:44:27) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 18ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:44:33) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:44:37) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "tes"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 49ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:44:44) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:45:13) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 89ms (View: 87 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:45:16) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 60ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:45:50) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 63ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:46:16) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 28ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:46:19) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 126ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:47:05) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 28ms (View: 26 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:47:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:47:32) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:47:51) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:47:54) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 52ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:48:07) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:48:10) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:48:13) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 45ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:48:48) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 28ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:48:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 60ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:48:55) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:49:01) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:49:04) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 49ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:49:06) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["test", "test"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 42ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 22:50:28) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:50:33) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>""}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+
+NoMethodError (undefined method `*' for {"0"=>"tet", "1"=>"test", "2"=>""}:HashWithIndifferentAccess):
+  app/controllers/lunch_controller.rb:12:in `winner'
+
+Rendered rescues/_trace (30.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:50:48) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+
+NoMethodError (undefined method `*' for {"0"=>"tet", "1"=>"test", "2"=>"test"}:HashWithIndifferentAccess):
+  app/controllers/lunch_controller.rb:12:in `winner'
+
+Rendered rescues/_trace (105.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#winner to js (for 127.0.0.1 at 2010-02-12 22:51:45) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+
+SyntaxError (/Users/robertbeekman/Sites/whoisgettinglunch/app/controllers/lunch_controller.rb:12: syntax error, unexpected tSTRING_BEG, expecting '}'
+...ts #{@contestants.join(' ,') ', '}. Question: Who is getting...
+                              ^):
+  
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:51:59) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+
+NoMethodError (undefined method `join' for {"0"=>"tet", "1"=>"test", "2"=>"test"}:HashWithIndifferentAccess):
+  app/controllers/lunch_controller.rb:12:in `winner'
+
+Rendered rescues/_trace (30.7ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:52:45) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:53:38) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+nil
+Rendering lunch/winner
+Completed in 48ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:55:29) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+nil
+Rendering lunch/winner
+Completed in 99ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 22:55:47) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>{"0"=>"tet", "1"=>"test", "2"=>"test"}, "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+"tet"
+Rendering lunch/winner
+Completed in 58ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:00:00) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 20ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:06) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Test", "Robert"]}
+
+NoMethodError (undefined method `values' for ["0", "1"]:Array):
+  app/controllers/lunch_controller.rb:12:in `winner'
+
+Rendered rescues/_trace (30.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:00:16) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:20) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 59ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:24) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:27) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 52ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:29) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:31) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 47ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:34) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 61ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:36) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 43ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:37) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 59ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:39) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 45ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:41) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 43ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:44) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 72ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:00:46) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 70ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:01:17) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 26ms (View: 24 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:01:20) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:01:23) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 123ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:01:25) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 45ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:01:27) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 47ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:01:29) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:02:22) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:02:26) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:02:41) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 94ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:02:45) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 47ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:02:48) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 54ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:02:49) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 55ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:02:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:03:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 56ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:03:58) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 21ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:04:05) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert Beekman", "Robert Beekman"]}
+Rendering lunch/winner
+Completed in 60ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:04:29) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 19ms (View: 18 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:04:32) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 77ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:04:56) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:05:01) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert", "Robert"]}
+Rendering lunch/winner
+Completed in 41ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:05:53) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1", "2", "3"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert", "Robert", "Rober", "Rob"]}
+Rendering lunch/winner
+Completed in 42ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:07:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1", "2", "3"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["Robert", "Robert", "Rober", "Rob"]}
+Rendering lunch/winner
+Completed in 57ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:07:28) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:07:31) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:11:17) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 86ms (View: 84 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:21) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:24) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 79ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:25) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:27) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 43ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:29) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:30) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:11:39) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:11:42) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 56ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:12:17) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 84ms (View: 82 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:12:21) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 54ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:12:52) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 31ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:12:55) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["tset", "test"]}
+Rendering lunch/winner
+Completed in 49ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:13:04) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 30ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:13:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["tetsfd", "asdf"]}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:13:19) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["tetsfd", "asdf"]}
+Rendering lunch/winner
+Completed in 93ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:14:06) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 106ms (View: 105 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:14:10) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "asdfasdf"]}
+Rendering lunch/winner
+Completed in 144ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:14:25) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:14:28) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 73ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:14:52) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 67ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:17:16) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 25ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:17:18) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "contestant"=>"test"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 11 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:17:29) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "contestant"=>"test"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 116ms (View: 114 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:17:33) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 54ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:17:47) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 15 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:17:49) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 41ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:17:52) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 48ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:17:53) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 55ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:17:59) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:02) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:04) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 133ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:05) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 44ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:45) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 45ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:46) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 48ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:46) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 57ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:47) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:18:54) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 28ms (View: 25 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:18:58) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "tasdf"]}
+Rendering lunch/winner
+Completed in 63ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:19:00) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "tasdf"]}
+Rendering lunch/winner
+Completed in 39ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:19:00) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "tasdf"]}
+Rendering lunch/winner
+Completed in 53ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:21:34) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:21:36) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "contestant"=>"test"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 12ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:21:39) [POST]
+  Parameters: {"commit"=>"Add", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "contestant"=>"test"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 11ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:21:51) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 14ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:21:55) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:21:58) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 40ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:22:21) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 14ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:22:24) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 391ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:22:35) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 39ms (View: 33 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:22:38) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["adsf", "asdf"]}
+Rendering lunch/winner
+Completed in 42ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:22:42) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1", "2", "3"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["adsf", "asdf", "asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 56ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:22:43) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1", "2", "3"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["adsf", "asdf", "asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 51ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:24:08) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 22ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:24:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 2ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:24:14) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["ads", "asdf"]}
+Rendering lunch/winner
+Completed in 50ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:24:55) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 134ms (View: 21 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:24:58) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 60ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:00) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 49ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:03) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 46ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:06) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 140ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:08) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 41ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:09) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 43ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:11) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["asdf", "asdf"]}
+Rendering lunch/winner
+Completed in 45ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:25:26) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 18ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:31) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 956ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:39) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 100ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:25:54) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 13 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:25:57) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 98ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:00) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 99ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:02) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 96ms (View: 2 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:26:21) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 38ms (View: 36 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:24) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 101ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:26) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 173ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:28) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 100ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:26:50) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 35ms (View: 27 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic="}
+Rendering lunch/winner
+Completed in 2ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:26:54) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 98ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:27:23) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 16ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:27:27) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1", "2"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test", "serer"]}
+Rendering lunch/winner
+Completed in 95ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:30:56) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 22ms (View: 17 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:31:44) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 99ms (View: 14 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:31:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 97ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:31:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 97ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:31:51) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 98ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:31:55) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-02-12 23:32:01) [POST]
+  Parameters: {"commit"=>"Who is getting lunch?", "contestants"=>["0", "1"], "authenticity_token"=>"AL3IMFhex4ahM3PRNXw2J4ZXSVioLiUmdeu63yvXgic=", "names"=>["test", "test"]}
+Rendering lunch/winner
+Completed in 107ms (View: 1 | 200 OK [http://localhost/lunch/winner.js]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:32:22) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 13ms (View: 12 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:33:29) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 15ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:33:41) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 10ms (View: 9 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:35:05) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 17ms (View: 16 | 200 OK [http://127.0.0.1/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:39:05) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 18ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-02-12 23:39:47) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 11ms (View: 9 | 200 OK [http://localhost/]
