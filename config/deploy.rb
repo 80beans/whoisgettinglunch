@@ -11,9 +11,9 @@ set :use_sudo, false
 ssh_options[:forward_agent] = true
 ssh_options[:username] = 'robertbeekman'
 
-role :app, 'nzbtv.com'
-role :web, 'nzbtv.com'
-role :db,  'nzbtv.com', :primary => true
+role :app, 'whoisgetting.com'
+role :web, 'whoisgetting.com'
+role :db,  'whoisgetting.com', :primary => true
 
 set :deploy_to, "/Sites/#{application}/app"
 
@@ -27,7 +27,7 @@ namespace :deploy do
   end
   task :finalize_update, :roles => :app do
     run "ln -s #{deploy_to}/shared/log #{release_path}/log"
-    run "ln -s #{deploy_to}/shared/tmp #{release_path}/tmp" 
+    run "ln -s #{deploy_to}/shared/tmp #{release_path}/tmp"
     run "ln -s #{deploy_to}/shared/system #{release_path}/public/system"
   end
   task :restart, :roles => :app do
