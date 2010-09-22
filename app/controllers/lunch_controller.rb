@@ -1,17 +1,16 @@
 class LunchController < ApplicationController
-  
+
   def index
-    
+
   end
-  
+
   def winner
     if params[:contestants]
       @contestants = params[:contestants]
       @winner = Lunch.get_random(@contestants)
-    
-      Justlogging.log("Winner: #{@winner}. Contestants #{@contestants.join(', ')}. Question: Who is getting #{@item}")
+
       respond_to do |format|
-        format.html 
+        format.html
         format.xml
         format.json
         format.js

@@ -7290,3 +7290,22 @@ Processing LunchController#index (for 127.0.0.1 at 2010-02-13 00:01:53) [GET]
 Rendering template within layouts/application
 Rendering lunch/index
 Completed in 18ms (View: 16 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-05-04 18:40:44) [GET]
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 39ms (View: 38 | 200 OK [http://localhost/]
+
+
+Processing LunchController#index (for 127.0.0.1 at 2010-05-04 18:40:49) [GET]
+  Parameters: {"item"=>"asian kitchen"}
+Rendering template within layouts/application
+Rendering lunch/index
+Completed in 9ms (View: 8 | 200 OK [http://localhost/asian%20kitchen]
+
+
+Processing LunchController#winner to js (for 127.0.0.1 at 2010-05-04 18:40:57) [POST]
+  Parameters: {"commit"=>"Who is getting asian kitchen?", "contestants"=>["0", "1", "2"], "authenticity_token"=>"jZFWHat5iPFnJwv+6tPuBO4moIsUgJzmWARXHcYauss=", "names"=>["Robert", "Jeff", "Thijs"]}
+Rendering lunch/winner
+Completed in 2022ms (View: 21 | 200 OK [http://localhost/lunch/winner.js]
